@@ -3,9 +3,9 @@
 cask "navigo" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.1.0"
-  sha256 arm:   "6a147fb51d2af7e26ef0c7a12b5088d179098597e52e95e5c555631a53f22516",
-         intel: "7638dd517cd2a299839227d56c5b86180177064d3da30adbe3956faea3e6d654"
+  version "0.2.0"
+  sha256 arm:   "98983a050074dd42ae95dd4acccbacbed3dd6b7362143f9bd85f5a1710241450",
+         intel: "c6cc3280a521f7cad1b284d0ee36033a1890b95acbcc8c78af25c15e0a0a5591"
 
   url "https://github.com/anopheles/navigo/releases/download/v#{version}/navigo_#{version}_darwin_#{arch}.tar.gz"
   name "navigo"
